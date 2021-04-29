@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display:flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    width: 20%;
+    position: relative;
+    
+}
+
+.container img {
+    width: 100%;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease-in-out;
+}
+
+.row .container:focus,
+.row .container:hover {
+    transform: scale(1.2);
+    z-index: 1;
+    transition: .25s ease-in-out;
+}
+
+.middle {
+    background-color: white;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container:hover .middle {
+    opacity: 0;
+}
+
+.text {
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.about {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-info {
+    width: 50%;
+}
+
+.portrait {
+    width: 40%;
+}
+
+.portrait img {
+    width:70%;
+    border-radius: 50%;
+
+}
+
+.footer {
+    margin-left: 10%;
+    width: 100%;
+    
+}
