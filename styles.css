@@ -1,1 +1,38 @@
 /* css styles */
+
+/* Typography */
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.05rem;
+}
+
+h1, h2, h3, .navbar-title {
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+/* UTEP-inspired accent color */
+:root {
+  --utep-orange: #FF8200;
+  --utep-blue: #041E42;
+}
+
+a {
+  color: var(--utep-blue);
+}
+
+a:hover {
+  color: var(--utep-orange);
+}
+
+.navbar {
+  background-color: var(--utep-blue) !important;
+}
+
+.navbar-title, .nav-link {
+  color: #ffffff !important;
+}
+
+h2 {
+  border-bottom: 2px solid var(--utep-orange);
+  padding-bottom: 0.25rem;
+}
