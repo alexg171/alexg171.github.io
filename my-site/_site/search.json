@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Alexandra Gamez",
+    "section": "",
+    "text": "I am a graduate student in Economics at UTEP, studying causal inference and applied econometrics, with a focus on quantitative methods for economic and financial data."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#cv",
+    "href": "index.html#cv",
+    "title": "Alexandra Gamez",
+    "section": "CV",
+    "text": "CV\nDownload full CV (PDF)\nEducation\n\nM.S. Economics, The University of Texas at El Paso (expected May 2027), GPA 3.83\nB.S. Computer Engineering, Minor in Cybersecurity, Texas A&M University (2017)\n\nExperience\n\nTeaching Assistant, Online MBA Program, UTEP Economics & Finance Department, 2026-present\nTechnical Lead, Steele Consulting, 2024-2025\nSoftware Developer, mPulse Mobile, 2021-2022\nSoftware Engineer Associate, Lockheed Martin Aeronautics Co., 2018-2020\nStudent Researcher, Texas A&M Parasol Parallel Processing Lab, 2016-2017"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Alexandra Gamez",
+    "section": "Research interests",
+    "text": "Research interests\nMy research interests center on causal inference and applied econometrics, particularly difference-in-differences designs, panel and longitudinal data analysis, and combining NLP/machine-learning methods with causal statistical inference to study questions in economics and technology (e.g., algorithmic amplification and content bias on social media platforms)."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Alexandra Gamez",
+    "section": "Skills",
+    "text": "Skills\nPython (Pandas, NumPy, Scikit-learn, Matplotlib), R, Stata, SQL, machine learning / NLP pipelines, causal inference (difference-in-differences), panel/longitudinal data analysis, regression analysis, data pipelines, API integration, database design (PostgreSQL, MSSQL), data visualization, Git"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Alexandra Gamez",
+    "section": "Contact",
+    "text": "Contact\nEmail: gamezalexandra17@gmail.com\nLinkedIn: https://www.linkedin.com/in/alexandra-gamez-8847b297/ · GitHub: github.com/alexg171"
+  },
+  {
+    "objectID": "index.html#selected-projects",
+    "href": "index.html#selected-projects",
+    "title": "Alexandra Gamez",
+    "section": "Selected projects",
+    "text": "Selected projects\n\nAlgorithmic Amplification & Content Bias on Twitter/X — Built an end-to-end research pipeline (data collection, an NLP/ML classification system, and causal inference) to estimate the effect of a major platform policy change on content visibility using a difference-in-differences design with a matched control group, applied to a 4-year, ~695,000-observation dataset.\nWages vs. Inflation: A CPI Analysis — Built a Python pipeline to collect, clean, merge, and validate BLS and FRED time-series data into a longitudinal panel, with descriptive statistics and visualizations of real vs. nominal wage trends."
+  }
+]
