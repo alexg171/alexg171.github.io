@@ -4,35 +4,43 @@
 body {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.05rem;
+  color: #2b2b2b;
 }
 
 h1, h2, h3, .navbar-title {
   font-family: "Georgia", "Times New Roman", serif;
 }
 
-/* UTEP-inspired accent color */
+/* Muted slate + terracotta palette */
 :root {
-  --utep-orange: #FF8200;
-  --utep-blue: #041E42;
+  --accent: #b5603c;
+  --ink: #2f3b46;
 }
 
 a {
-  color: var(--utep-blue);
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 2px;
 }
 
 a:hover {
-  color: var(--utep-orange);
+  color: var(--accent);
 }
 
 .navbar {
-  background-color: var(--utep-blue) !important;
+  background-color: var(--ink) !important;
 }
 
 .navbar-title, .nav-link {
-  color: #ffffff !important;
+  color: #f5f1ec !important;
+}
+
+.nav-link:hover {
+  color: var(--accent) !important;
 }
 
 h2 {
-  border-bottom: 2px solid var(--utep-orange);
+  border-bottom: 2px solid var(--accent);
   padding-bottom: 0.25rem;
 }
