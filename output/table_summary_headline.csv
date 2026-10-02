@@ -1,0 +1,10 @@
+Series,Sample,N,Mean,Median,Std. dev.,Skewness,AR(1),JB p,LB(12) p,Naive RMSE,ADF p,KPSS p
+CPI: All items,Full (1985-01 to 2026-08),498,2.772,2.759,3.199,-0.921,0.466,0.0,0.0,3.305,0.001,0.1
+CPI: All items,Pre-COVID (1985-01 to 2020-02),422,2.557,2.602,3.02,-1.391,0.437,0.0,0.0,3.205,0.002,0.01
+CPI: All items,Post-COVID (2020-03 to 2026-08),76,3.967,3.552,3.86,-0.123,0.503,0.001,0.0,3.772,0.001,0.1
+CPI: All items less food & energy (core),Full (1985-01 to 2026-08),498,2.77,2.523,1.636,0.612,0.57,0.0,0.0,1.517,0.048,0.01
+CPI: All items less food & energy (core),Pre-COVID (1985-01 to 2020-02),422,2.61,2.447,1.371,0.725,0.502,0.0,0.0,1.368,0.171,0.01
+CPI: All items less food & energy (core),Post-COVID (2020-03 to 2026-08),76,3.66,3.504,2.496,-0.332,0.629,0.0,0.0,2.121,0.275,0.1
+PCE chain-type price index,Full (1985-01 to 2026-08),500,2.367,2.274,2.363,-0.64,0.481,0.0,0.0,2.403,0.006,0.099
+PCE chain-type price index,Pre-COVID (1985-01 to 2020-02),422,2.151,2.144,2.248,-1.054,0.442,0.0,0.0,2.37,0.007,0.01
+PCE chain-type price index,Post-COVID (2020-03 to 2026-08),78,3.534,3.305,2.631,0.152,0.512,0.002,0.0,2.542,0.474,0.1
